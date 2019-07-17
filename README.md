@@ -1,32 +1,27 @@
-# drupal-console-ru
+# drupal-console-uk
 
-Drupal Console Russian Language / Drupal Console на русском языке
+Drupal Console Ukrainian Language / Drupal Console українська мова
 
-# Версия на русском языке
+## Usage
 
-## Использование
+Drupal Console project it's installed per each Drupal 8 website with English language by default.
 
-По-умолчанию Drupal Console устанавливается на Drupal 8 сайты на английском языке.
+To install Drupal Console package in other languages check the packages available at [https://packagist.org](https://packagist.org)
 
-Команда для установки Drupal Console на русском языке:
 
-```
-$ composer require drupal/console-ru
-```
+### Install Drupal Console
 
-### Установка Drupal Console
-
-Команда для установки Drupal Console используя composer:
+To install the appropriate version of Drupal Console project for your drupal installation, run the following composer command
 
 ```
 $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
 ```
 
-### Устанока пуского файла Drupal Console
+### Install Drupal Console launcher
 
-Пусковой файл Drupal Console был создан, чтобы избежать конфиликов между основными и придаточными версиями Drupal и различными версиями Drupal Console. Приемущество пускового файла в том, что команды Drupal Console доступны каждой установке Drupal на данной машине.
-
-Команда для устновки пусковой файл Drupal Console глобально
+Drupal Console launcher was created to avoid conflicts between major and minor releases. Drupal Console binary commands are available to every Drupal 8 instance on the machine.
+ 
+To install Drupal Console launcher globally follow the instruction below. 
 
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
@@ -37,16 +32,12 @@ $mv drupal.phar /usr/local/bin/drupal
 $ chmod +x /usr/local/bin/drupal
 ```
 
-### Содействие и помощь в разработке
+### Contribute
 
-Если Вы хотите помочь с переводом, следуйте иструкции
+Follow these steps to contribute to the current translation:
 
-- [Минимальные требования](https://docs.drupalconsole.com/ru/contributing/project-requirements.html)
-- [Установка проекта](https://docs.drupalconsole.com/ru/contributing/getting-the-project.html)
-- [Использование проекта](https://docs.drupalconsole.com/ru/contributing/running-the-project.html)
+- [Project requirements](https://docs.drupalconsole.com/en/contributing/project-requirements.html)
+- [Getting the project](https://docs.drupalconsole.com/en/contributing/getting-the-project.html)
+- [Running the project](https://docs.drupalconsole.com/en/contributing/running-the-project.html)
 
-Внимание: сохранияйте свои изменения в ответвленный код и создайте запорос на обновление родительского кода (pull request) своевременно (желательно, ежедневно), чтобы избежать конфликтов с родительским кодом и изменениями других разработчиков.
-
-# Английская версия
-
-Проект на английском доступен по ссылке [https://github.com/hechoendrupal/drupal-console-en](https://github.com/hechoendrupal/drupal-console-en)
+N.B: Push your changes to your forked repository in order to create PR per day to avoid any conflicts with other contributors.
